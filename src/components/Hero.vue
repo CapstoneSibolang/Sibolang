@@ -45,7 +45,7 @@ import typer from 'typer-js'
 
 export default {
   mounted(){
-    typer('#titler').line('Trip To Labuan Bajo')
+    typer('#titler').line('Selamat Datang di Si Bolang')
   }
 };
 
