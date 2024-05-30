@@ -102,10 +102,9 @@ export default {
         <ul id="dropdownNav"
             class=" fixed w-[50vw] z-40 top-10 text-white pt-8 pb-4 bg-[#7FBCD2] flex flex-col gap-2 font-engplot items-center text-[1rem] "
             v-show="mobileNav">
-            <li>Beranda</li>
-            <li>Penawaran</li>
-            <li><router-link class="" to="/#location">Kontak</router-link></li>
-            <li><router-link to="/#instagram">Tentang</router-link></li>
+            <li>Home</li>
+            <li>About</li>
+            <li><router-link class="" to="/#location">favorite</router-link></li>
         </ul>
     </transition>
 </template>

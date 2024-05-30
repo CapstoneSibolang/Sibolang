@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        button:'rgb(12,159,100)'
+      }
+    },
     fontFamily: {
       Logo: ['Logo', 'sans-serif'],
       engplot: ['engplot'],
