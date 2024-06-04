@@ -1,11 +1,10 @@
 <script>
 
-import Hero from '@/components/Hero.vue';
-import Navbar from '@/components/Navbar.vue';
-import Packages from '@/components/Packages.vue';
-import Reason from '@/components/Reason.vue';
-import Review from '@/components/Review.vue';
-import Footer from '@/components/Footer.vue';
+import Hero from '@/components/Home/Hero.vue';
+import Navbar from '@/components/common/Navbar.vue';
+import Packages from '@/components/Home/Packages.vue';
+import Reason from '@/components/Home/Reason.vue';
+import Footer from '@/components/common/Footer.vue';
 
 export default {
     components: {
@@ -13,7 +12,6 @@ export default {
         Navbar,
         Packages,
         Reason,
-        Review,
         Footer
     },
 };
@@ -24,7 +22,6 @@ export default {
     <Hero />
     <Packages />
     <Reason />
-    <Review />
     <Footer />
   
 </template>
